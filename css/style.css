@@ -1,0 +1,127 @@
+/* https://www.w3schools.com/cssref/ */
+
+/*parte{
+    propriedades:valor;
+}*/
+
+/*O CSS funciona de cima para baixo, o de baixo tem mais força que o de cima*/
+
+/*Em todo o corpo*/
+body{
+    text-align: center; /*alinhar texto*/
+    font-family: Open Sans, sans-serif;; /*Familia da fonte*/
+    background-color: #8A71C9; /*Cor de fundo (Nominal[cor]) (hexadecimal[#??????]) (rgb(?,?,?)) (hsl(?,?%,?%))*/
+    color:#ffffff; /*Cor do texto*/
+    margin:  0px 0px 30px 0px; /*margem*/
+}
+
+/*Fontes*/
+
+h1{
+    font-size: 60px; /*Tamanho da fonte*/
+    font-weight: 300; /*grossura da fonte*/
+  }
+
+  h2{
+    color: #2a0074; /*cor de um elemento especifico*/
+    font-size: 40px; /*tamanho de fonte*/
+}
+  
+  h3{
+    font-size:22px;
+    font-style: italic; /*fonte itálico*/
+    /*border: red 3px solid;*/
+  }
+  
+  p{
+    line-height: 1.5; /*ajustar altura das linhas dos paragrafos*/
+    font-size: 20px;
+    /*border: pink 3px solid;*/
+  }
+
+  .titulo-verde{ /*classe se usa ponto*/
+    color: #04ff9f;
+}
+
+.titulo-vermelho{
+    color: #FF9E9E;
+}
+
+.titulo-amarelo{
+    color: #ffe36d;
+}
+
+/*Seção*/
+section{
+    /*background-color: yellow;*/
+    /*width: 50%;*/
+    /*max-width: 60%; largura maxima - Unidade relativa*/
+    /*margin-left: 250px;*/
+    /*margin-right: 50%;*/
+    width: 60%;
+    margin:0 auto; /*em cima e embaixo margem 0 e dos lados automatizados, ou seja iguais*/
+}
+
+/*isso resolve o bug da seção dentro da seção e padroniza elas*/
+section section{
+  width: 100%;
+}
+
+/*Imagem*/
+img{
+  width: 100%; /*Ajustar largura da imagem*/
+  /*border: orange 3px solid;*/
+}
+
+/*lista*/
+ul{
+    list-style-type: none; /*tirar o estilo de lista*/
+    line-height: 2; /*altura da linha*/
+    /*background-color: yellow;*/
+    /*margin-top: 100px;*/
+    /*padding-top: 50px;*/
+    padding-left: 0;
+}
+
+/*li{
+    background-color: green;
+}*/
+
+/*Link*/
+a{
+    text-decoration: none;
+    color: #99ffff; /*cor do link*/
+    font-weight: 700; /*peso da fonte*/
+}
+
+.principal{
+  background: #ff6cb5; /*cor de fundo do menu principal*/
+  height: 40px; /*altura dos elementos*/
+  max-width: 60%; /*60% da largura da pagina*/
+  margin: 0 auto; /*centralizado automaticamente*/
+}
+
+/*.principal a | assim fica menos especifico*/
+/*.principal ul li a | assim fica mais especifico*/
+.principal a{/*O seletor de classe é o ponto[.] | As tags a que estão dentro do principal vão receber um estilo diferente, fica mais facil se ler da direita para esquerda*/
+  color: #fff; /*cor dos links*/
+  text-decoration: underline; /*sublinhado*/
+  font-weight: normal; /*peso do texto*/
+}
+
+/* display:inline-block; um ao lado do outro*/
+/*display:block; um embaixo do outro*/
+
+.principal li{
+  display: inline-block; /*um ao lado do outro*/
+  line-height: 2.5; /*altura de linha*/
+  margin: 0 89px; /*definindo 89px em cada lado e distancia*/
+}
+
+button{
+  background-color:  #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+/*margin-bottom: 30px;*/
+}
