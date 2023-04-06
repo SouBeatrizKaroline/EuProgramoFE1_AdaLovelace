@@ -10,6 +10,7 @@ Landpage feito durante o curso, construção de site sobre Ada Lovelace
 
 - HTML
 - CSS
+- JS
 - Git e Github
 
 ## 💙 Contato
