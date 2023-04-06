@@ -2,7 +2,7 @@
 
 > Turma 24
 
-Projeto final do curso, site sobre Ada Lovelace
+Landpage feito durante o curso, construção de site sobre Ada Lovelace
 
 [🔗 Clique aqui para acessar](https://soubeatrizkaroline.github.io/EuProgramo_AdaLovelace/)
 
