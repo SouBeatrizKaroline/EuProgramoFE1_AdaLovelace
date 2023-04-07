@@ -2,7 +2,7 @@
 
 > Turma 24
 
-Landpage feito durante o curso, construção de site sobre Ada Lovelace
+Landing Page feito durante o curso, construção de site sobre Ada Lovelace
 
 [🔗 Clique aqui para acessar](https://soubeatrizkaroline.github.io/EuProgramo_AdaLovelace/)
 
